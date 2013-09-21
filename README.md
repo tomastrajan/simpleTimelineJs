@@ -13,10 +13,10 @@ To use timeline you simply specify year range by calling function `generateYears
 
 To add period to the timeline call function `setTimelineElement("name of period", "color", startYear, startMonth, endYear, endMonth, newTimeline);` 
 
----* color parameter accepts color in hexadecimal format e.g.: `#ff0000`
----* newTimeline parameter accepts boolean `true` or `false` values (when `true` period will start new timeline, `false` periods are displayed inline in current timeline)
----* endYear parameter accepts number (e.g.: `2012`) or `currentYear` values
----* endMonth parameter accepts number (e.g.: `10`) or `currentMonth` values
+   * color parameter accepts color in hexadecimal format e.g.: `#ff0000`
+   * newTimeline parameter accepts boolean `true` or `false` values (when `true` period will start new timeline, `false` periods are displayed inline in current timeline)
+   * endYear parameter accepts number (e.g.: `2012`) or `currentYear` values
+   * endMonth parameter accepts number (e.g.: `10`) or `currentMonth` values
 
 Live demo
 ---------
