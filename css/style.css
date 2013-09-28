@@ -30,74 +30,6 @@ h1 {
 	border-bottom:1px solid #aaa;
 	margin-bottom:40px;
 }
-
-#timelineHolder {
-	width: 100%;
-	overflow: auto;
-}
-
-#timelineFullWidthHolder {
-	padding-bottom:20px;
-	margin: 0 auto;
-}
-
-.timelineYears li{
-	display: block;
-	float:left;
-	margin:0px;
-	padding: 10px 0px;
-	padding-bottom:25px;
-	width:84px;
-	text-align: center;
-	background: url('../img/scale.jpg') 0px 30px no-repeat;
-}
-
-.timelineYearsBottom li{
-	display: block;
-	float:left;
-	margin:0px;
-	padding: 10px 0px;
-	padding-top:26px;
-	width:84px;
-	text-align: center;
-	background: url('../img/scale_bottom.jpg') 0px 0px no-repeat;
-}
-
-#timelines {
-	background: url('../img/scale_bg.jpg') repeat;
-	padding:10px 0px;
-}
-
-.timeline {
-	height: 40px;
-	margin: 10px 0px;
-	font-size: 1.1em;
-	text-align: left;
-	position:relative;
-	overflow:hidden;
-}
-
-.timeline div{
-	height:100%;
-	opacity: 0.5;
-}
-
-.timeline p {
-	position:absolute;
-	top:5px;
-	left:4px;
-	line-height:0.9em;
-	white-space:nowrap;
-}
-.timeline p span{
-	font-size:0.8em;
-	display:block;
-	white-space:nowrap;
-}
-
-.clearFix {
-	clear:both;
- }
  
 #footer {
 	border-top:1px solid #aaa;
@@ -111,12 +43,3 @@ h1 {
 	font-family: "YanoneKaffeesatzBold", sans-serif;
 	font-size:1.2em;
  }
- 
- .timelineTooltip {
-	padding:20px;
-	position:absolute;
-	background:#fff;
-	border:1px solid #000;
-	display:inline-block;
- }
- 
