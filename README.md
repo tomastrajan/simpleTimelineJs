@@ -21,14 +21,17 @@ as JavaScript function parameters.
 
 To use timeline you simply specify year range by calling function `simpleTimelineJs.api.initTimeline(2003, 2014);`
 
-To add period to the timeline call function `simpleTimelineJs.api.addTimelinePeriod(
+To add period to the timeline call function 
+```javascript
+simpleTimelineJs.api.addTimelinePeriod(
     "name of period", 
     "color", 
     startYear,
     startMonth, 
     endYear, 
     endMonth, 
-    newTimeline);` 
+    newTimeline);
+````
 
    * color parameter accepts color in hexadecimal format e.g.: `#ff0000`
    * newTimeline parameter accepts boolean `true` or `false` values (when `true` period will start new timeline, `false` periods are displayed inline in current timeline)
