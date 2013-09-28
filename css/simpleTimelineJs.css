@@ -1,0 +1,72 @@
+#simpleTimelineJs {
+	overflow:auto;
+}
+
+#simpleTimelineJs_FullWidthHolder {
+	padding-bottom: 20px;
+	margin: 0 auto;
+}
+
+.simpleTimelineJs_years li{
+	display: block;
+	float:left;
+	margin:0px;
+	padding: 10px 0px;
+	padding-bottom:25px;
+	width:84px;
+	text-align: center;
+	background: url('../img/scale.jpg') 0px 30px no-repeat;
+}
+
+.simpleTimelineJs_yearsBottom li{
+	display: block;
+	float:left;
+	margin:0px;
+	padding: 10px 0px;
+	padding-top:26px;
+	width:84px;
+	text-align: center;
+	background: url('../img/scale_bottom.jpg') 0px 0px no-repeat;
+}
+
+#simpleTimelineJs_timelines {
+	background: url('../img/scale_bg.jpg') repeat;
+	padding:10px 0px;
+}
+
+.simpleTimelineJs_timeline {
+	height: 40px;
+	margin: 10px 0px;
+	font-size: 1.1em;
+	text-align: left;
+	position:relative;
+	overflow:hidden;
+	float:left;
+}
+
+.simpleTimelineJs_timeline div{
+	height:100%;
+	opacity: 0.5;
+}
+
+.simpleTimelineJs_timeline p {
+	position:absolute;
+	top:5px;
+	left:4px;
+	line-height:0.9em;
+	white-space:nowrap;
+}
+.simpleTimelineJs_timeline p span{
+	font-size:0.8em;
+	display:block;
+	white-space:nowrap;
+}
+
+.simpleTimelineJs_Tooltip {
+	padding:20px;
+	position:absolute;
+	background:#fff;
+	border:1px solid #000;
+	display:inline-block;
+}
+ 
