@@ -3,32 +3,31 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Simple Timeline</title>
+		
+		<!-- Demo stylesheet -->
 		<link rel="stylesheet" href="css/style.css">
+		
+		<!-- 
+			SimpleTimelineJs stylesheet
+			All styles are prefixed with "simpleTimelineJs_"
+			to minimize possible style collisions
+		-->
+		<link rel="stylesheet" href="css/simpleTimelineJs.css">
+		
+		<!-- SimpleTimelineJs uses jQuery -->
 		<script src="js/jquery-2.0.3.js"></script>
+		
+		<!-- SimpleTimelineJs and timeline data -->
 		<script src="js/timeline.js"></script>
 		<script src="timeline_data.js"></script>
 	</head>
 	<body>
 		<h1>Simple Timeline</h1>
-		<div id="timelineHolder">
-			<div id="timelineFullWidthHolder">
-				<ul class="timelineYears">
 		
-				</ul>
-				<br class="clearFix" />
-				
-				<div id="timelines">
-					<div>
-					</div>
-					<br class="clearFix" />
-				</div>
-		
-				<ul class="timelineYears timelineYearsBottom">
-		
-				</ul>
-				<br class="clearFix" />
-			</div>
+		<!-- SimpleTimelineJs holder -->
+		<div id="simpleTimelineJs">
 		</div>
+		
 		<div id="footer">
 			<p>Simple Timeline by Trajan 2013</p>
 		</div>
