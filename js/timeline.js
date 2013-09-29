@@ -1,6 +1,6 @@
 /* 	SimpleTimelineJs by Trajan 2013 */
 	
-var simpleTimelineJs = {
+var simpleTimelineJs = simpleTimelineJs || {
     
 	currentYear : function() {
 		simpleTimelineJs.config.now.getFullYear();
